@@ -6,11 +6,11 @@ This is a sample application of DApps.
 It is created as a project of Truffle framework.  
 It allows accessing to Ganache(Ethereum) and Loom Network.  
 It allows accessing through Express server(application server).  
-[DApps : Medium](https://medium.com/swlh/understanding-dapps-decentralized-applications-8f3668ebdc9a)  
-[Truffle : Official](https://truffleframework.com/)  
-[Ganache : Official](https://truffleframework.com/docs/ganache/overview)  
-[Loom Network SDK : Official](https://loomx.io/developers/)  
-[Express : Official](https://expressjs.com/)  
+- [DApps : Medium](https://medium.com/swlh/understanding-dapps-decentralized-applications-8f3668ebdc9a)  
+- [Truffle : Official](https://truffleframework.com/)  
+- [Ganache : Official](https://truffleframework.com/docs/ganache/overview)  
+- [Loom Network SDK : Official](https://loomx.io/developers/)  
+- [Express : Official](https://expressjs.com/)  
 
 ## Description
 Let's run and analyze the sample DApps.  
@@ -30,7 +30,7 @@ I hope to be useful to you when you develop DApps.
 ### Setting up the development environment.
 The script file [setup0000_all](https://github.com/zombietimes/setup0000_all) is useful to set up the development environment.  
 It consists of the external script files below.  
-[setup0000_all](https://github.com/zombietimes/setup0000_all)  
+- [setup0000_all](https://github.com/zombietimes/setup0000_all)  
 
 ### Environment
 This script file is for Ubuntu(Linux).  
@@ -56,12 +56,12 @@ git clone https://github.com/zombietimes/dapp_helloWorld.git
 cd dapp_helloWorld
 sh ./ubuntuCmd_setupDapp_helloZombies.sh
 ```
-![dapp_helloWorld_0000.png]()  
+![dapp_helloWorld_0000](https://user-images.githubusercontent.com/50263232/57186619-8f466200-6f1d-11e9-925f-e7c9e4c329d6.png)  
 After running Ganache, press the Enter key.  
-![dapp_helloWorld_0001.png]()  
-![dapp_helloWorld_0002.png]()  
-![dapp_helloWorld_0003.png]()  
-![dapp_helloWorld_0004.png]()  
+![dapp_helloWorld_0001](https://user-images.githubusercontent.com/50263232/57186622-9bcaba80-6f1d-11e9-982b-543a8426ad8e.png)  
+![dapp_helloWorld_0002](https://user-images.githubusercontent.com/50263232/57186623-a7b67c80-6f1d-11e9-9e33-23415de57dc9.png)  
+![dapp_helloWorld_0003](https://user-images.githubusercontent.com/50263232/57186625-b3a23e80-6f1d-11e9-9b43-7ee3f5926092.png)  
+![dapp_helloWorld_0004](https://user-images.githubusercontent.com/50263232/57186628-c1f05a80-6f1d-11e9-8838-65eb63c74dea.png)  
 
 ### Truffle console to Ganache
 The next step is the operation on Truffle console.  
@@ -77,13 +77,13 @@ instance.Set('We are zombies.').then()
 instance.Get().then()
 .exit
 ```
-![dapp_helloWorld_0005.png]()  
-![dapp_helloWorld_0006.png]()  
-![dapp_helloWorld_0007.png]()  
-![dapp_helloWorld_0008.png]()  
-![dapp_helloWorld_0009.png]()  
-![dapp_helloWorld_0010.png]()  
-![dapp_helloWorld_0011.png]()  
+![dapp_helloWorld_0005](https://user-images.githubusercontent.com/50263232/57186633-d0d70d00-6f1d-11e9-8b2d-b63abdff015a.png)  
+![dapp_helloWorld_0006](https://user-images.githubusercontent.com/50263232/57186637-dd5b6580-6f1d-11e9-8c94-20fe1fee7eec.png)  
+![dapp_helloWorld_0007](https://user-images.githubusercontent.com/50263232/57186639-e9472780-6f1d-11e9-9423-8620908abc08.png)  
+![dapp_helloWorld_0008](https://user-images.githubusercontent.com/50263232/57186641-f49a5300-6f1d-11e9-85b6-ddac2de975a7.png)  
+![dapp_helloWorld_0009](https://user-images.githubusercontent.com/50263232/57186643-01b74200-6f1e-11e9-8bc9-be183e6d8895.png)  
+![dapp_helloWorld_0010](https://user-images.githubusercontent.com/50263232/57186645-0d0a6d80-6f1e-11e9-8821-fc9cbd8f97f7.png)  
+![dapp_helloWorld_0011](https://user-images.githubusercontent.com/50263232/57186647-198ec600-6f1e-11e9-92f7-205c2ef3f520.png)  
 
 ### Web server to Ganache
 The next step is the operation on Ubuntu console.  
@@ -94,7 +94,7 @@ You can get and set a message by using it.
 cd ~/dapps/deploy/by_truffle/accessor
 node ./to_helloZombies.js
 ```
-![dapp_helloWorld_0012.png]()  
+![dapp_helloWorld_0012](https://user-images.githubusercontent.com/50263232/57186650-24495b00-6f1e-11e9-854b-80ac4ae7b3a7.png)  
 
 ### Browser to Web server to Ganache
 The final step is web browsing.  
@@ -109,8 +109,8 @@ node ./bin/www
 # Browser.
 http://127.0.0.1:3000
 ```
-![dapp_helloWorld_0013.png]()  
-![dapp_helloWorld_0014.png]()  
+![dapp_helloWorld_0013](https://user-images.githubusercontent.com/50263232/57186653-3a571b80-6f1e-11e9-9ce6-9d823f2eb59b.png)  
+![dapp_helloWorld_0014](https://user-images.githubusercontent.com/50263232/57186654-4511b080-6f1e-11e9-82ee-cfb63fef6971.png)  
 
 ## Requirement
 I confirmed that it works on Ubuntu Desktop 18.04 in VirtualBox.  
@@ -119,25 +119,25 @@ It works on the environment below.
 - Google Chrome.
 - [setup0000_all](https://github.com/zombietimes/setup0000_all)
 
-## Relative links
+## Relative link
 ### Overview
-[Ethereum : Official](https://www.ethereum.org/)  
-[Ethereum : Wikipedia](https://en.wikipedia.org/wiki/Ethereum)  
-[Loom Network : Official](https://loomx.io/)  
-[Loom Network : Binance wiki](https://info.binance.com/en/currencies/loom-network)  
+- [Ethereum : Official](https://www.ethereum.org/)
+- [Ethereum : Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+- [Loom Network : Official](https://loomx.io/)
+- [Loom Network : Binance wiki](https://info.binance.com/en/currencies/loom-network)
 
 ### Development
-[Online editor : EthFiddle](https://ethfiddle.com/)  
-[Online editor : Remix](https://remix.ethereum.org/)  
+- [Online editor : EthFiddle](https://ethfiddle.com/)
+- [Online editor : Remix](https://remix.ethereum.org/)
 
 ### Learning
-[Online learning : CryptoZombies](https://cryptozombies.io/)  
-[Grammar : Solidity](https://solidity.readthedocs.io/)  
-[Grammar : Best Practices](https://github.com/ConsenSys/smart-contract-best-practices)  
+- [Online learning : CryptoZombies](https://cryptozombies.io/)
+- [Grammar : Solidity](https://solidity.readthedocs.io/)
+- [Grammar : Best Practices](https://github.com/ConsenSys/smart-contract-best-practices)
 
 ### DApps
-[DApps : CryptoKitties](https://www.cryptokitties.co/)  
-[DApps : Zombie Battle ground](https://loom.games/en/)  
+- [DApps : CryptoKitties](https://www.cryptokitties.co/)
+- [DApps : Zombie Battle ground](https://loom.games/en/)
 
 ## Messages
 Do you believe that the decentralized world is coming?  
@@ -146,7 +146,4 @@ Why?
 
 ## License
 BSD 3-Clause, see `LICENSE` file for details.  
-
----
-Produced by Zombie Times  
 
